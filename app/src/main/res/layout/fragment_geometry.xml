@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="@null">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:background="@color/back_courses"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/horizontal_dashboard"
+                android:layout_marginTop="@dimen/normalPadding"
+                android:layout_marginRight="@dimen/horizontal_dashboard"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                tools:ignore="UselessParent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cubeLink"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/horizontal_card"
+                    android:layout_marginEnd="@dimen/horizontal_card"
+                    android:layout_marginBottom="@dimen/horizontal_card"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="15dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/img_card_height"
+                                android:src="@drawable/kubus" />
+                        </RelativeLayout>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/normalPadding"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="@dimen/normalPadding"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/bariol_bold"
+                            android:gravity="center"
+                            android:text="@string/geometry_kubus"
+                            android:textColor="@color/darkTextColor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cuboidsLink"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/horizontal_card"
+                    android:layout_marginTop="@dimen/horizontal_card"
+                    android:layout_marginBottom="@dimen/horizontal_card"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="@dimen/card_course_dashboard_elevation">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="15dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/img_card_height"
+                                android:src="@drawable/balok" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/normalPadding"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="@dimen/normalPadding"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/bariol_bold"
+                            android:gravity="center"
+                            android:text="@string/geometry_balok"
+                            android:textColor="@color/darkTextColor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/horizontal_dashboard"
+                android:layout_marginTop="@dimen/normalPadding"
+                android:layout_marginRight="@dimen/horizontal_dashboard"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                tools:ignore="UselessParent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/prismLink"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/horizontal_card"
+                    android:layout_marginEnd="@dimen/horizontal_card"
+                    android:layout_marginBottom="@dimen/horizontal_card"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+
+
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="15dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/img_card_height"
+                                android:src="@drawable/prisma" />
+                        </RelativeLayout>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/normalPadding"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="@dimen/normalPadding"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/bariol_bold"
+                            android:gravity="center"
+                            android:text="@string/geometry_prisma"
+                            android:textColor="@color/darkTextColor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sphereLink"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/horizontal_card"
+                    android:layout_marginTop="@dimen/horizontal_card"
+                    android:layout_marginBottom="@dimen/horizontal_card"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="@dimen/card_course_dashboard_elevation">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="15dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/img_card_height"
+                                android:src="@drawable/bola" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/normalPadding"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="@dimen/normalPadding"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/bariol_bold"
+                            android:gravity="center"
+                            android:text="@string/geometry_bola"
+                            android:textColor="@color/darkTextColor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/horizontal_dashboard"
+                android:layout_marginTop="@dimen/normalPadding"
+                android:layout_marginRight="@dimen/horizontal_dashboard"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                tools:ignore="UselessParent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cylinderLink"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/horizontal_card"
+                    android:layout_marginEnd="@dimen/horizontal_card"
+                    android:layout_marginBottom="@dimen/horizontal_card"
+                    android:layout_weight="1"
+
+                    android:clickable="true"
+                    android:focusable="true"
+
+                    android:foreground="?attr/selectableItemBackground"
+
+
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="15dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/img_card_height"
+                                android:src="@drawable/tabung" />
+                        </RelativeLayout>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/normalPadding"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="@dimen/normalPadding"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/bariol_bold"
+                            android:gravity="center"
+                            android:text="@string/geometry_tabung"
+                            android:textColor="@color/darkTextColor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/coneLink"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/horizontal_card"
+                    android:layout_marginTop="@dimen/horizontal_card"
+                    android:layout_marginBottom="@dimen/horizontal_card"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="@dimen/card_course_dashboard_elevation">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="15dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/img_card_height"
+                                android:src="@drawable/kerucut" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/normalPadding"
+                            android:layout_marginTop="@dimen/top_text_card"
+                            android:layout_marginRight="@dimen/normalPadding"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/bariol_bold"
+                            android:text="@string/geometry_kerucut"
+                            android:gravity="center"
+                            android:textColor="@color/darkTextColor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

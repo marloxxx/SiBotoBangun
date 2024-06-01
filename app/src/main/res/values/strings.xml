@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Si Boto Bangun</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_background">login background</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="nik">NIK</string>
+    <string name="fullname">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="bangun_datar">Bangun Datar</string>
+    <string name="bangun_ruang">Bangun Ruang</string>
+    <string name="shapes_persegi">Persegi</string>
+    <string name="shapes_persegipanjang">Persegi Panjang</string>
+    <string name="shapes_segitiga">Segitiga</string>
+    <string name="shapes_lingkaran">Lingkaran</string>
+    <string name="shapes_trapesium">Trapesium</string>
+    <string name="shapes_jajargenjang">Jajar Genjang</string>
+    <string name="shapes_belahketupat">Belah Ketupat</string>
+    <string name="greeting"></string>
+    <string name="geometry_kubus">Kubus</string>
+    <string name="geometry_balok">Balok</string>
+    <string name="geometry_prisma">Prisma</string>
+    <string name="geometry_tabung">Tabung</string>
+    <string name="geometry_kerucut">Kerucut</string>
+    <string name="geometry_bola">Bola</string>
+    <string name="phone">Phone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
