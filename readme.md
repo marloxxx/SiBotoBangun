@@ -8,6 +8,22 @@ Si Boto Bangun is an Android application that helps users to calculate the volum
 - Calculate the volume of 3D shapes such as cubes, spheres, cylinders, and cones.
 - User-friendly interface with step-by-step input guidance.
 
+## Screenshots
+
+Here are some screenshots of the application:
+
+![Home Screen](screenshots/home_screen.png)
+*Home Screen*
+
+![Choose Shapes](screenshots/choose_shapes.png)
+*Choose Shapes
+
+![2D Shapes Calculation](screenshots/2d_shapes_calculation.png)
+*2D Shapes Calculation*
+
+![3D Shapes Calculation](screenshots/3d_shapes_calculation.png)
+*3D Shapes Calculation*
+
 ## Getting Started
 
 ### Prerequisites
