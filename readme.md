@@ -12,17 +12,24 @@ Si Boto Bangun is an Android application that helps users to calculate the volum
 
 Here are some screenshots of the application:
 
-<img src="screenshots/home_screen.png" alt="Home Screen" width="200"/>
-# Home Screen
-
-<img src="screenshots/choose_shapes.png" alt="Choose Shapes" width="200"/>
-# Choose Shapes
-
-<img src="screenshots/2d_shapes_calculation.png" alt="2D Shapes Calculation" width="200"/>
-# 2D Shapes Calculation #
-
-<img src="screenshots/3d_shapes_calculation.png" alt="3D Shapes Calculation" width="200"/>
-# 3D Shapes Calculation
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px;">
+    <div style="flex: 1;">
+        <img src="screenshots/home_screen.png" alt="Home Screen" width="200"/>
+        <p>Home Screen</p>
+    </div>
+    <div style="flex: 1;">
+        <img src="screenshots/choose_shapes.png" alt="Choose Shapes" width="200"/>
+        <p>Choose Shapes</p>
+    </div>
+    <div style="flex: 1;">
+        <img src="screenshots/2d_shapes_calculation.png" alt="2D Shapes Calculation" width="200"/>
+        <p>2D Shapes Calculation</p>
+    </div>
+    <div style="flex: 1;">
+        <img src="screenshots/3d_shapes_calculation.png" alt="3D Shapes Calculation" width="200"/>
+        <p>3D Shapes Calculation</p>
+    </div>
+</div>
 
 ## Getting Started
 
