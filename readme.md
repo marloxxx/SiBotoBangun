@@ -17,14 +17,11 @@ Si Boto Bangun is an Android application that helps users to calculate the volum
 
 ### Installation
 
-1. Clone the repository:
+Clone the repository:
 
    ```sh
    git clone https://github.com/yourusername/kalkulator-bangun-ruang.git
-
-Sure! Here's a `README.md` for your Android project "Kalkulator Bangun Ruang":
-
-```markdown
+   ```
 
 ## Contributing
 
