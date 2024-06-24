@@ -18,7 +18,7 @@ class DashboardFragment : Fragment(){
     ): View? {
         val view = inflater.inflate(R.layout.fragment_dashboard, container, false)
 //        change greeting text on greeting home activity
-        greetingTitle = activity?.findViewById(R.id.greeting) as TextView
+        greetingTitle = activity?.findViewById<TextView>(R.id.greeting)!!
         greetingTitle.text = "Selamat Datang di Siboto Bangun\nApa yang ingin kamu pelajari?"
         view.findViewById<View>(R.id.shapesLink).setOnClickListener{
             val shapesFragment = activity as FragmentNavigation

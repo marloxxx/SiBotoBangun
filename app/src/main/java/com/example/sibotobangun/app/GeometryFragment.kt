@@ -19,7 +19,7 @@ class GeometryFragment: Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_geometry, container, false)
 //        change greeting text on greeting home activity
-        greetingTitle = activity?.findViewById(R.id.greeting) as TextView
+        greetingTitle = activity?.findViewById<TextView>(R.id.greeting)!!
         greetingTitle.text = "Ayo belajar tentang menghitung bangun ruang!"
         view.findViewById<View>(R.id.cubeLink).setOnClickListener{
             val cubeFragment = activity as FragmentNavigation

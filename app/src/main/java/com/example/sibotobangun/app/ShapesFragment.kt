@@ -19,7 +19,7 @@ class ShapesFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_shapes, container, false)
 //        change greeting text on greeting home activity
-        greetingTitle = activity?.findViewById(R.id.greeting) as TextView
+        greetingTitle = activity?.findViewById<TextView>(R.id.greeting)!!
         greetingTitle.text = "Ayo belajar tentang bangun datar!"
         view.findViewById<View>(R.id.squareLink).setOnClickListener{
             val squareFragment = activity as FragmentNavigation
